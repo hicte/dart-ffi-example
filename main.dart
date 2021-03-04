@@ -2,6 +2,7 @@ import 'dart:ffi' as ffi;
 
 typedef SystemC = ffi.Int32 Function(ffi.Int32, ffi.Int32);
 typedef SystemDart = int Function(int, int);
+
 void main() {
   // change the path for other platforms (Mac, Windows)
   const sharedLibPath = './shared_lib.so';
