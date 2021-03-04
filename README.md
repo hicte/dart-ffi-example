@@ -1,5 +1,5 @@
 # dart-ffi-example
-example for using c code in dart.
+example for using C code in Dart.
 
 ### generate shared library file:
 ```sh
