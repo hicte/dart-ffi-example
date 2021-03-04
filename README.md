@@ -1,7 +1,7 @@
 # dart-ffi-example
 example for using c code in dart.
 
-## compile:
+## create shared object:
 ```sh
 # in linux
 gcc -shared -o shared_lib.so my_lib.c 
