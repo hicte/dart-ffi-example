@@ -3,7 +3,7 @@ example for using c code in dart.
 
 ### generate shared library file:
 ```sh
-# in linux
+# for linux
 # (see common instructions for other platforms)
 
 gcc -shared -o shared_lib.so my_lib.c 
